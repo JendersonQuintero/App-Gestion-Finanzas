@@ -9,6 +9,8 @@ import { LogginComponent } from './pages/loggin/loggin.component';
 import { OperationsComponent } from './pages/operations/operations.component';
 import { SharedOperationsComponent } from './pages/shared-operations/shared-operations.component';
 import { CheckoutMovementComponent } from './pages/checkout-movement/checkout-movement.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { AddMovementComponent } from './components/add-movement/add-movement.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CheckoutMovementComponent } from './pages/checkout-movement/checkout-mo
     LogginComponent,
     OperationsComponent,
     SharedOperationsComponent,
-    CheckoutMovementComponent
+    CheckoutMovementComponent,
+    FooterComponent,
+    AddMovementComponent
   ],
   imports: [
     BrowserModule,
